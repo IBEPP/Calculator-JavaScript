@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(23,24,37);
+}
+
+h1 {
+    padding-top: 15px;
+    text-align: center;
+}
+
+a {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 500;
+    size: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: Arial;
+    font-weight: 400;
+    size: 32px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    background: white;
+    color: black;
+    height: 60px;
+    width: 260px;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 35px;
+    border-radius: 8px;
+    margin: 4px;
+}
+
+input {
+    background: rgb(37,49,65);
+    border-radius: 8px;
+    color: white;
+    height: 65px;
+    width: 183vh;
+    margin: 7px;
+    border: none;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    min-width: 250px;
+    text-align: right;
+    /* outline: none; */
+}
+
+img {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    color: blue;
+}
